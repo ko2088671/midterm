@@ -1,3 +1,25 @@
+#colorPicker1, #colorPicker2 {
+      margin-right: 10px;
+    }
+table {
+  border-collapse: separate;
+  width: 500px;
+  margin: 20px;
+}
+table, th, td {
+  border:1px solid black;
+}
+th, td {
+  text-align: center;
+}
+.odd-row {
+  background-color: var(--color1);
+  color: white;
+}
+
+.even-row {
+  background-color: var(--color2);
+}
 #customText {
       font-size: 25px;
       background-color: #FFFFFF; /* Default background color */
@@ -40,7 +62,7 @@
 
 /* s4 style */
 .s4 {
-  color: #362C20; /* Coffee color */
+  color: #4D0000; /* Coffee color */
   font-size: 30px;
   font-weight: bold;
   text-align: left;
